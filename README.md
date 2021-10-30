@@ -1,89 +1,113 @@
-# AI-Powered Voice Assistant Flutter Radio App
-
-This is a radio app where you can ask Alan AI to play some music.
-
-<p align="center">
-  <a href="https://youtu.be/p4xh7zTt6i0" target="_blank">
-    <img src="ss/ai_cover.png"  width="800" alt="Alan AI Radio App">
-  </a>
-</p>
-
-> Alan AI: https://voice.alan.app/MTechViral
->
-> Promo Code: MTECHVIRAL
-
-### Show some :heart: and star the repo.
-
-[![GitHub followers](https://img.shields.io/github/followers/iampawan.svg?style=social&label=Follow)](https://github.com/iampawan/Coronavirus-Warrior)
-[![Twitter Follow](https://img.shields.io/twitter/follow/imthepk.svg?style=social)](https://twitter.com/imthepk)
-
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
-
-## AI Radio Video Tutorial
-
-[Watch here](https://youtu.be/p4xh7zTt6i0)
-
----
-
-## <a href="https://www.buymeacoffee.com/mtechviral"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=mtechviral&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
-
-## Some screenshots
-
-|                                      |                                      |
-| ------------------------------------ | ------------------------------------ |
-| <img src="ss/ai1.png"  width="300"/> | <img src="ss/ai2.png"  width="300"/> |
-| <img src="ss/ai3.png" width="300"/>  | <img src="ss/ai4.png" width="300"/>  |
-| <img src="ss/ai5.png" width="300"/>  |
-
----
-
-### :heart: Found this project useful?
-
-If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
-
----
-
-### YouTube Channel
-
-[MTechViral](https://www.youtube.com/mtechviral)
-
-### Facebook Group
-
-[Let's Flutter With Dart](https://www.facebook.com/groups/425920117856409/)
-
-### Collection of flutter apps with tutorial
-
-[Flutter Example Apps](https://github.com/iampawan/FlutterExampleApps)
-
----
-
-## Project Created & Maintained By
-
-### Pawan Kumar
-
-Google Developer Expert for Flutter. Passionate #Flutter, #Android Developer. #Entrepreneur #YouTuber
-
-<a href="https://play.google.com/store/apps/dev?id=7703305844118303242&hl=en"><img src="https://github.com/aritraroy/social-icons/blob/master/play-store-icon.png?raw=true" width="60"></a> <a href="https://medium.com/@imthepk"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a>
-<a href="https://twitter.com/imthepk"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
-<a href="https://linkedin.com/in/imthepk"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
-<a href="https://facebook.com/imthepk"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
-<a href="https://instagram.com/codepur_ka_superhero"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
-# Donate
-
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> - [PayPal](https://www.paypal.me/imthepk/)
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    project.radios = [
+{
+    "id": 1,
+    "name": "92.7",
+    "tagline": "Suno Sunao, Life Banao!",
+    "color": "0xffa11431",
+    "desc": "The chills you get when you listen to music, is mostly caused by the brain releasing dopamine while anticipating the peak moment of a song.",
+    "url": "http://sc-bb.1.fm:8017/;",
+    "icon": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/m8afyszryaqt.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b5df4c18876369.562d0d4bd94cf.jpg",
+    "lang": "Hindi",
+    "category": "pop",
+    "disliked": false,
+    "order": 1
+},
+{
+    "id": 2,
+    "name": "98.3",
+    "tagline": "Gaano Ka Sweet Dish",
+    "color": "0xff221420",
+    "desc": "There are few activities in life that utilizes the entire brain, and music is one of them.",
+    "url": "https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8",
+    "icon": "https://static.mytuner.mobi/media/tvos_radios/2z69hnevkvam.jpeg",
+    "image": "https://static.toiimg.com/thumb/msid-72350288,width-800,height-600,resizemode-75,imgsize-302210,pt-32,y_pad-40/72350288.jpg",
+    "lang": "Hindi",
+    "disliked": false,
+    "category": "rock",
+    "order": 2
+},
+{
+    "id": 3,
+    "name": "102",
+    "tagline": "Play On!",
+    "color": "0xff04080b",
+    "desc": "Playing music regularly will physically alter your brain structure.",
+    "url": "http://node-14.zeno.fm/cm1fkgbv1ceuv?rj-ttl=5&rj-token=AAABa7Pm__WhrF8jIJ36of_AC5C-TeMcqPiHC5BJB1j1JxkowiWAyQ",
+    "icon": "http://db.radioline.fr/pictures/radio_1b34ac132310c975f847aed2a948a318/logo200.jpg?size=200",
+    "image": "https://www.theknotnews.com/wp-content/uploads/2017/02/Fifty-Shades-Poster.jpg",
+    "lang": "English",
+    "disliked": false,
+    "category": "hip-hop",
+    "order": 3
+},
+{
+    "id": 4,
+    "name": "104",
+    "tagline": "English Hits",
+    "color": "0xff066c53",
+    "desc": "",
+    "url": "http://108.61.34.50:7094/stream",
+    "icon": "https://radiosindia.com/images/foxfm.jpg",
+    "image": "https://images.esc-plus.com/wp-content/uploads/2016/03/Samra_Rahimli.jpg",
+    "lang": "English",
+    "category": "hip-hop",
+    "disliked": false,
+    "order": 4
+},
+{
+    "id": 5,
+    "name": "95",
+    "tagline": "London UK Asian Music",
+    "color": "0xff0d487d",
+    "desc": "",
+    "url": "http://icy-e-01-cr.sharp-stream.com/1458.mp3",
+    "icon": "https://static.radio.net/images/broadcasts/5d/9c/37907/1/c175.png",
+    "image": "https://static.radio.net/images/broadcasts/5d/9c/37907/1/c175.png",
+    "lang": "English",
+    "category": "jazz",
+    "disliked": false,
+    "order": 5
+},
+{
+    "id": 6,
+    "name": "94",
+    "tagline": "Today's Hits",
+    "color": "0xff27383e",
+    "desc": "",
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/977_HITS.mp3",
+    "icon": "https://static.radio.net/images/broadcasts/8d/76/3600/1/c175.png",
+    "image": "https://i.ytimg.com/vi/BUnPVjqb0YY/maxresdefault.jpg",
+    "lang": "English",
+    "category": "rock",
+    "disliked": false,
+    "order": 6
+},
+{
+    "id": 7,
+    "name": "93",
+    "tagline": "Love Songs",
+    "color": "0xffa06a37",
+    "desc": "The brain responds to music the same way it responds to something that you eat.",
+    "url": "https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/index_1_a-p.m3u8?sd=10&rebase=on",
+    "icon": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/4evkagl48buu.jpeg",
+    "image": "https://i.bollywoodmantra.com/albums/wallpapers/kismat-konnection/shahid-kapur_vidya-balan___34541.jpg",
+    "lang": "Hindi",
+    "category": "pop",
+    "disliked": false,
+    "order": 7
+},
+{
+    "id": 8,
+    "name": "107",
+    "tagline": "Rocking Retro Hits",
+    "color": "0xff090909",
+    "desc": "Your heartbeat changes to mimics the music you listen to.",
+    "url": "https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/index_1_a-p.m3u8?sd=10&rebase=on",
+    "icon": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/uvclzz6a6d7x.jpeg",
+    "image": "https://i.pinimg.com/originals/7f/f6/13/7ff613ed815f1eb56a90794ec64eecfe.jpg",
+    "lang": "Hindi",
+    "category": "classic",
+    "disliked": false,
+    "order": 8
+}
